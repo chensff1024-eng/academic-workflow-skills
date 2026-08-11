@@ -86,6 +86,20 @@ python -B scripts/package_skills.py --output-dir .tmp/dist
 The packager runs the release verifier first and creates deterministic archives
 with SHA-256 hashes.
 
+## Series context
+
+These two Skills are the first public components extracted from a broader
+private, local-first academic workflow maintained by the same author. The local
+system connects provenance-aware knowledge ingestion, evidence-bounded writing,
+role-isolated review and finalization, human release decisions, document audit,
+and journal strategy.
+
+The private implementations and research data are not included here. Their
+existence is supporting evidence of the series direction, not a claim of public
+adoption or completed end-to-end acceptance. See the
+[series roadmap](docs/series-roadmap.md) for the verified local scope, current
+limits, and release gates for future components.
+
 ## Rights and privacy
 
 - Process only material you are authorized to use.

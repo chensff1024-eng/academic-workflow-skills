@@ -26,8 +26,18 @@ contribution. Applications are reviewed on a rolling basis.
 - Initial release: `v0.1.0`
 - Current evidence: public source, public release, deterministic packages,
   tests, CI, security policy, third-party notices, and release evidence
+- Series context: this is the first public release from a broader private local
+  system for provenance-aware knowledge supply, evidence-bounded writing,
+  role-isolated review and finalization, and journal strategy
+- Maintainer-local verification on 2026-08-11: 38 focused writing-workflow
+  contract tests and 47 focused knowledge-supply contract tests passed; these
+  private tests are not public CI or independent adoption evidence
 - Limitation: no demonstrated external adoption or community maintenance
   history yet
+
+The [series roadmap](series-roadmap.md) separates public components,
+maintainer-local evidence, future candidates, and claims that remain out of
+scope.
 
 Use the email address associated with the applicant's ChatGPT account in the
 form. Do not publish that address, the OpenAI Organization ID, or application
@@ -36,10 +46,12 @@ confirmation details in this repository.
 ## Recommended timing
 
 The repository is technically eligible to be described as a public project,
-but its evidence is still early. A stronger application would first show two
-to four weeks of maintenance activity, real users or issue reports, at least
-one follow-up release, and honest usage or download evidence. Do not fabricate
-stars, downloads, users, contribution history, or ecosystem importance.
+and the related local workflows now provide a more credible engineering and
+maintenance rationale. They do not replace public adoption evidence. A
+stronger application would first show two to four weeks of maintenance
+activity, real users or issue reports, at least one follow-up release, and
+honest usage or download evidence. Do not fabricate stars, downloads, users,
+contribution history, or ecosystem importance.
 
 ## Draft answers
 
@@ -48,28 +60,30 @@ has new evidence before submission.
 
 ### Why does this project qualify?
 
-> Academic Workflow Skills is a new Apache-2.0 project providing two tested,
-> local-first Codex Skills for evidence-bounded literature review and
-> journal-fit strategy. It addresses rights and privacy risks by avoiding
-> account automation, restricted-document redistribution, and submission
-> actions. I am the primary maintainer. The project has an initial public
-> release and CI; external adoption is still early.
+> Academic Workflow Skills is the first public release from a broader
+> local-first research system I maintain. Private workflows connect
+> provenance-aware knowledge supply, evidence-bounded writing, isolated review
+> and finalization, and journal strategy; 85 focused maintainer-local contract
+> tests passed on 2026-08-11. This repo publishes two rights-safe components. I
+> am the primary maintainer; public adoption is still early.
 
 ### How would API credits be used?
 
-> I would use API credits to maintain regression and evaluation suites, triage
-> issues, review contributions, test rights-safe workflow changes, generate
-> release notes, and automate reproducible packaging and provenance checks.
-> Credits would support the open-source repository, not access to restricted
-> content or automated journal submission.
+> I would use API credits to evaluate and open-source further rights-safe
+> components: provenance-aware knowledge ingestion, evidence and citation
+> audits, role-isolated drafting and review, issue triage, contribution review,
+> deterministic packaging, and release checks. Credits would support
+> maintenance and testing, not restricted-content access or automated journal
+> submission.
 
 ### Anything else?
 
-> The repository includes Apache-2.0 licensing, third-party notices, synthetic
-> fixtures, a release verifier, deterministic packages, public CI, and an
-> evidence record. It is intentionally local-first and does not automate CNKI
-> login or downloads, or journal submission. I can provide usage and
-> maintenance evidence as it develops.
+> The current release includes two Skills, synthetic fixtures, CI,
+> deterministic archives, legal notices, and a release verifier. Related local
+> systems already implement knowledge-supply and evidence-bounded writing
+> contracts, but remain private pending rights, privacy, data-separation, and
+> release audits. I will publish only generalized components that pass those
+> gates.
 
 ## Submission checklist
 
