@@ -104,3 +104,7 @@ and [CONTRIBUTING.md](CONTRIBUTING.md).
 Initial public release. The repository provides tested workflow primitives and
 synthetic examples; it does not yet claim broad adoption, download volume, or
 community maintenance history.
+
+For the verified program boundary, evidence checklist, and truthful draft
+answers, see the
+[Codex for Open Source application guide](docs/codex-for-open-source-application.md).
