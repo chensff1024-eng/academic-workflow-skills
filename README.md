@@ -119,6 +119,9 @@ Initial public release. The repository provides tested workflow primitives and
 synthetic examples; it does not yet claim broad adoption, download volume, or
 community maintenance history.
 
-For the verified program boundary, evidence checklist, and truthful draft
-answers, see the
-[Codex for Open Source application guide](docs/codex-for-open-source-application.md).
+The maintainer submitted this repository to Codex for Open Source on
+2026-08-11. Submission confirms receipt for rolling review only; it does not
+mean the project was selected or funded. For the verified program boundary,
+application snapshot, submitted answer text, and follow-up evidence checklist,
+see the [Codex for Open Source application
+record](docs/codex-for-open-source-application.md).

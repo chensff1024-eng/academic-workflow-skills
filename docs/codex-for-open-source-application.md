@@ -1,9 +1,13 @@
-# Codex for Open Source application guide
+# Codex for Open Source application record
 
-Checked on: 2026-08-11
+- Program checked: 2026-08-11
+- Application submitted: 2026-08-11
 
-This document records a truthful application baseline for this repository. It
-is not evidence that OpenAI has selected or funded the project.
+This document records the public, non-sensitive application baseline and the
+submitted state for this repository. The private form copy, account email,
+OpenAI Organization ID, and confirmation screenshot are not stored here. A
+submission confirmation is not evidence that OpenAI selected or funded the
+project.
 
 ## Verified program boundary
 
@@ -24,6 +28,10 @@ contribution. Applications are reviewed on a rolling basis.
 - Role: primary maintainer
 - License: Apache-2.0
 - Initial release: `v0.1.0`
+- Application snapshot commit:
+  `122d0760d6e528b090e87ef13e71da86e4019118`
+- Application snapshot CI: [successful GitHub Actions run
+  31488035198](https://github.com/chensff1024-eng/academic-workflow-skills/actions/runs/31488035198)
 - Current evidence: public source, public release, deterministic packages,
   tests, CI, security policy, third-party notices, and release evidence
 - Series context: this is the first public release from a broader private local
@@ -34,6 +42,8 @@ contribution. Applications are reviewed on a rolling basis.
   private tests are not public CI or independent adoption evidence
 - Limitation: no demonstrated external adoption or community maintenance
   history yet
+- Application state: submitted on 2026-08-11 and awaiting rolling review; no
+  selection, funding, API-credit amount, or response date is claimed
 
 The [series roadmap](series-roadmap.md) separates public components,
 maintainer-local evidence, future candidates, and claims that remain out of
@@ -43,20 +53,23 @@ Use the email address associated with the applicant's ChatGPT account in the
 form. Do not publish that address, the OpenAI Organization ID, or application
 confirmation details in this repository.
 
-## Recommended timing
+## Submission status and maintenance priorities
 
-The repository is technically eligible to be described as a public project,
-and the related local workflows now provide a more credible engineering and
-maintenance rationale. They do not replace public adoption evidence. A
-stronger application would first show two to four weeks of maintenance
-activity, real users or issue reports, at least one follow-up release, and
-honest usage or download evidence. Do not fabricate stars, downloads, users,
-contribution history, or ecosystem importance.
+The maintainer manually reviewed and submitted the official form on
+2026-08-11. The confirmation page stated that the application would be
+reviewed and that selected applicants would be contacted. No receipt number
+was displayed. This establishes receipt for review only.
 
-## Draft answers
+While the application is pending, maintenance should focus on substantive
+rights-safe improvements, issue handling, and reproducible follow-up releases.
+Do not submit duplicates unless OpenAI requests one, and do not fabricate
+stars, downloads, users, contribution history, or ecosystem importance.
 
-These drafts are deliberately conservative and must be updated if the project
-has new evidence before submission.
+## Submitted answer text
+
+The following text records the answer baseline used for the 2026-08-11
+submission. It is historical application evidence, not a template for claiming
+new metrics without verification.
 
 ### Why does this project qualify?
 
@@ -85,23 +98,23 @@ has new evidence before submission.
 > release audits. I will publish only generalized components that pass those
 > gates.
 
-## Submission checklist
+## Follow-up checklist
 
-1. Sign in to the ChatGPT account that will receive the benefit.
-2. Open the official application form and enter the same ChatGPT account email.
-3. Enter the public GitHub username and repository URL above.
-4. Select the primary or core maintainer role truthfully.
-5. Choose only the optional programs actually wanted.
-6. If requesting API credits, obtain the correct OpenAI Organization ID from
-   the account settings; do not guess it.
-7. Refresh the draft answers with current repository evidence and keep each
-   answer within the form's stated 500-character limit.
-8. Review every declaration, submit the form personally, and retain the dated
-   confirmation page or email privately.
+1. Keep the repository public and preserve the application snapshot commit and
+   release tag.
+2. Retain the dated confirmation page and any follow-up email privately.
+3. Monitor the applicant email, including spam filtering, without treating a
+   lack of response as rejection or approval.
+4. Do not submit a duplicate application unless OpenAI requests a correction
+   or materially new evidence.
+5. Record future releases, CI runs, issues, contributions, and usage metrics
+   with dates and without inflation.
+6. If selected, verify the exact benefit, duration, account, and any conditions
+   in the official message before describing the result publicly.
 
 ## Evidence to retain privately
 
-- A screenshot or PDF of the completed form before submission
+- A private screenshot or PDF of the completed form, if retained
 - The submission confirmation and any follow-up email
 - The repository and release URLs at submission time
 - The exact commit hash and latest successful CI run

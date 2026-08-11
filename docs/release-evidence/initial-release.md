@@ -2,6 +2,12 @@
 
 Evidence captured: 2026-08-11T19:21:33+08:00
 
+This is a historical record of the initial release path. Later documentation
+commits and the 2026-08-11 Codex for Open Source submission are recorded in
+[`../codex-for-open-source-application.md`](../codex-for-open-source-application.md).
+The commit hashes and scanner counts below remain bound to the stages at which
+they were captured and should not be read as the current default-branch count.
+
 ## Verified source commit
 
 - Commit: `70050449994867a1635f9a880adf7f6dbe70b0ba`
