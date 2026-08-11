@@ -92,4 +92,3 @@ has new evidence before submission.
 - The repository and release URLs at submission time
 - The exact commit hash and latest successful CI run
 - Dated, non-inflated usage and maintenance metrics
-
