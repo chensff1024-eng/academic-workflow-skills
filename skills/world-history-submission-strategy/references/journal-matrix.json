@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-08-11",
+  "scope": "Chinese-language history journal discovery for world-history and adjacent manuscripts",
+  "provenance_class": "official-source-scope-plus-maintainer-heuristic",
+  "limitations": "Theme-fit discovery only. Current submission rules, indexing, fees, review cycle, contacts, and AI policies are not stored as facts.",
+  "journals": [
+    {
+      "name": "世界历史",
+      "journal_form": "specialist",
+      "scope_terms": ["世界史", "全球史", "国别史", "地区史", "跨国史", "英国史", "欧洲史", "国际关系史"],
+      "preferred_signals": ["跨国比较", "世界史前沿", "问题意识", "外文史料"],
+      "caution": "题目属于世界史并不自动形成契合度；需证明问题意识、史料贡献与更广泛的学术对话。",
+      "evidence_source": "https://www.cass.cn/keyandongtai/keyanguanli/201312/t20131204_894236.shtml",
+      "source_scope_note": "官方机构报道将其描述为关注现实、基础研究、学术前沿与专题策划的世界史专业刊物。",
+      "evidence_checked": "2026-08-11"
+    },
+    {
+      "name": "历史研究",
+      "journal_form": "general-history",
+      "scope_terms": ["历史学", "世界史", "中国史", "全球史", "长时段", "比较史", "国家治理"],
+      "preferred_signals": ["重大问题", "理论深度", "整体性", "原创史料", "跨学科"],
+      "caution": "综合性高端期刊要求问题和论证具有超出个案的解释力；仅有区域材料通常不足。",
+      "evidence_source": "https://www.cass.cn/yaowen/201912/t20191231_5068459.shtml",
+      "source_scope_note": "官方发布强调思想厚度、理论深度、前沿探索、选题拓展与国内外史学互动。",
+      "evidence_checked": "2026-08-11"
+    },
+    {
+      "name": "史学理论研究",
+      "journal_form": "theory-and-method",
+      "scope_terms": ["史学理论", "历史理论", "史学史", "方法论", "全球史", "比较史", "长时段"],
+      "preferred_signals": ["理论问题", "方法创新", "概念史", "史学史", "宏观解释"],
+      "caution": "材料型论文必须把理论或方法贡献写到中心位置，而非在结尾附加概念。",
+      "evidence_source": "https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202203/t20220329_5401004.shtml",
+      "source_scope_note": "官方介绍显示该刊由外国史学理论和史学史取向扩展到打通古今中外的历史理论问题。",
+      "evidence_checked": "2026-08-11"
+    },
+    {
+      "name": "清史研究",
+      "journal_form": "specialist",
+      "scope_terms": ["清史", "明清史", "十八世纪", "中国与世界", "中外关系史", "全球史"],
+      "preferred_signals": ["清代史料", "新材料", "新观点", "新方法", "跨学科"],
+      "caution": "与清代仅有时间重合并不足；需要进入清史问题脉络或清代中国与世界的实质对话。",
+      "evidence_source": "https://iqh.ruc.edu.cn/old/xskw/index.htm",
+      "source_scope_note": "主办机构将其定位为清史专业学术交流平台，并列举十八世纪中国与世界等议题。",
+      "evidence_checked": "2026-08-11"
+    },
+    {
+      "name": "中国社会经济史研究",
+      "journal_form": "specialist",
+      "scope_terms": ["社会经济史", "经济史", "贸易史", "港口", "运输", "市场", "区域经济"],
+      "preferred_signals": ["制度与实践", "量化证据", "区域比较", "长期变化", "经济社会机制"],
+      "caution": "以外国史为主的稿件需明确它与中国社会经济史或比较经济史读者的关系。",
+      "evidence_source": "https://journals.xmu.edu.cn/info/1208/1465.htm",
+      "source_scope_note": "厦门大学期刊页面确认该刊由厦门大学历史研究所主办；主题标签为维护者根据刊名与公开目录整理的发现性启发。",
+      "evidence_checked": "2026-08-11"
+    },
+    {
+      "name": "抗日战争研究",
+      "journal_form": "specialist",
+      "scope_terms": ["抗日战争史", "日本侵华史", "近代中日关系", "战争史", "国际关系史", "战时社会"],
+      "preferred_signals": ["专题研究", "史实考订", "国际背景", "新史料", "多方档案"],
+      "caution": "只在研究对象直接涉及抗日战争、日本侵华、战时国际关系或遗留问题时列入。",
+      "evidence_source": "https://jds.cass.cn/bsgk/zzjg/krzzyjbjb/",
+      "source_scope_note": "主办机构页面明确列出抗日战争、日本侵华、近代中日关系、战时社会与国际形势等范围。",
+      "evidence_checked": "2026-08-11"
+    }
+  ]
+}

@@ -7,13 +7,13 @@ Publish one public, maintainable repository containing two complementary Codex S
 1. `cnki-literature-review` helps a researcher design CNKI searches, normalize user-supplied bibliographic exports, rank literature, build an evidence ledger, and draft an evidence-bounded literature review.
 2. `world-history-submission-strategy` analyzes a manuscript and produces journal-fit, verification, sequencing, and pre-submission revision advice without submitting the manuscript.
 
-The public acceptance object is the repository `chensff1024-eng/academic-workflow-skills`, not the two private source directories.
+The public acceptance object is the repository `chensff1024-eng/academic-workflow-skills`, not either private source directory.
 
 ## Scope Lock
 
 ### In scope
 
-- One monorepo at `E:\academic-workflow-skills`.
+- One dedicated local monorepo with the public name `academic-workflow-skills`.
 - Two separately installable Skill directories under `skills/`.
 - Standard-library Python helpers for deterministic local processing.
 - Synthetic examples and fixtures only.
@@ -29,7 +29,7 @@ The public acceptance object is the repository `chensff1024-eng/academic-workflo
 - Redistributing PDFs, CAJ files, paywalled full text, screenshots, session URLs, or private manuscripts.
 - Sending submission emails, uploading manuscripts, clicking final-submit buttons, or claiming acceptance probability.
 - Vendoring `cookjohn/cnki-skills`, the private reading-report implementation, or other third-party Skill trees.
-- Modifying `E:\cnki-writing-skill` or `E:\submission-skill`.
+- Modifying either private source directory.
 
 ## Repository Architecture
 

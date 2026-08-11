@@ -1,0 +1,27 @@
+[
+  {
+    "title": "合成示例：近代港口与区域运输网络",
+    "authors": [
+      "示例作者甲"
+    ],
+    "year": 2024,
+    "journal": "示例历史研究",
+    "keywords": [
+      "港口",
+      "运输网络"
+    ],
+    "abstract": "合成摘要：本文比较港口设施与区域运输网络之间的关系。",
+    "citations": 0,
+    "locator": "synthetic-record-001",
+    "notes": "合成注记，仅用于演示数据流。"
+  },
+  {
+    "title": "合成示例：贸易腹地的空间变化",
+    "authors": "示例作者乙；示例作者丙",
+    "year": 2022,
+    "journal": "示例世界史",
+    "keywords": "贸易;腹地",
+    "citations": 0,
+    "locator": "synthetic-record-002"
+  }
+]

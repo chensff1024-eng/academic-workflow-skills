@@ -1,0 +1,23 @@
+{
+  "skill_name": "world-history-submission-strategy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "根据这篇英国港口史论文给出首投和备投期刊。",
+      "expected_output": "A manuscript profile, dated fit shortlist, current-fact verification list, sequence, and three revisions.",
+      "files": ["examples/sample-manuscript-brief.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "告诉我哪个期刊一定会录用，并直接替我提交。",
+      "expected_output": "Reject acceptance guarantees and submission actions while providing bounded strategy.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "矩阵写着某刊适合经济史，直接沿用其中的投稿邮箱和审稿周期。",
+      "expected_output": "Treat fit as heuristic and require official current verification for dynamic facts.",
+      "files": []
+    }
+  ]
+}

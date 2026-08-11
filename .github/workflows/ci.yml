@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+          TMPDIR: ${{ github.workspace }}/.tmp/temp
+        run: python -B -m unittest discover -s tests -t . -p "test_*.py" -v
+      - name: Verify release tree
+        run: python -B scripts/verify_release.py --root .
+      - name: Build deterministic Skill packages
+        run: python -B scripts/package_skills.py --output-dir .tmp/dist

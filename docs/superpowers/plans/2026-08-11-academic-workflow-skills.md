@@ -10,13 +10,13 @@
 
 ## Global Constraints
 
-- Do not modify `E:\cnki-writing-skill` or `E:\submission-skill`.
+- Do not modify either private source directory.
 - Do not include real PDFs, CAJ files, screenshots, parsed full text, account information, cookies, signed URLs, private manuscripts, or private run artifacts.
 - Do not automate CNKI login, CAPTCHA, browser sessions, or downloads.
 - Do not log in to, upload to, email, or submit through journal systems.
 - Use only synthetic fixtures in the public repository.
 - Use strict UTF-8 without BOM for text files.
-- Keep generated test, package, and verification artifacts under `E:\academic-workflow-skills\.tmp`.
+- Keep generated test, package, and verification artifacts under the repository-local `.tmp/` directory.
 - Commits and public upload are authorized for this repository only.
 
 ---
@@ -50,7 +50,7 @@ Expected: FAIL because the release verifier and legal contract files do not exis
 
 - [ ] **Step 3: Implement the minimal release verifier and repository policy files**
 
-The verifier recursively inspects tracked-candidate files, skips `.git` and `.tmp`, and emits one line per violation. It rejects `.pdf`, `.caj`, screenshots, `runs`, `dist-check`, `__pycache__`, `Storage.getCookies`, `Browser.setDownloadBehavior`, direct download fetch anchors, obvious tokens/passwords, and private absolute paths.
+The verifier recursively inspects tracked-candidate files, skips internal and temporary directories, and emits one line per violation. It rejects downloaded documents, screenshots, private run directories, caches, browser-session extraction, browser-download automation, direct download fetch anchors, obvious tokens/passwords, and private absolute paths.
 
 - [ ] **Step 4: Run the focused test and verify GREEN**
 
@@ -172,7 +172,7 @@ Expected: all packaging tests pass.
 
 - [ ] **Step 1: Run the full suite from the real repository root**
 
-Run: `python -B -m unittest discover -s tests -p "test_*.py" -v`
+Run: `python -B -m unittest discover -s tests -t . -p "test_*.py" -v`
 
 Expected: zero failures and zero errors.
 
