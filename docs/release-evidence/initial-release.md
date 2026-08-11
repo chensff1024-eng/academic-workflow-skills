@@ -63,12 +63,27 @@ and are excluded from the public tree.
 - Official journal and host-institution sources are recorded in the dated local
   matrix and the prior-art ledger.
 
-## Publication state at capture time
+## Remote publication evidence
 
-The local release content is verified and committed. The public GitHub
-repository had not yet been created at this capture point. Remote visibility,
-published commit identity, and public file inventory must be appended only
-after they are observed on the remote service.
+Remote evidence captured: 2026-08-11T19:29:09+08:00
+
+- Public repository:
+  `https://github.com/chensff1024-eng/academic-workflow-skills`
+- Default branch: `main`
+- Observed branch commit before this evidence-only update:
+  `fcb014363d473aa59a3861939306da4666831b8e`
+- Authenticated GitHub page: marked `Public`, with 3 commits and the expected
+  `.github/workflows`, `docs`, `openspec`, `scripts`, `skills`, and `tests`
+  directories.
+- Anonymous public read: repository page and both nested `SKILL.md` files were
+  readable without an authenticated session.
+- Local/remote comparison: `git ls-remote` returned the same full commit as the
+  local branch before this evidence-only update.
+
+An initial failed web upload flattened directory names but contained no private
+material. Before acceptance, that single remote commit was replaced using an
+exact expected-hash lease. The accepted remote history is the verified local
+three-commit history, not the discarded flattened commit.
 
 ## Known limitations
 
